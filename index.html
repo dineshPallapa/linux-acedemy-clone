@@ -1,0 +1,1633 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Linux Academy</title>
+        <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<meta name="apple-itunes-app" content="app-id=1084752266">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<link href="/templates/cp/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+<link href="//www.fuelcdn.com/fuelux/3.6.3/css/fuelux.min.css" rel="stylesheet">
+
+<link href="/lib/cache/67158650f02b3f7ce6f6e647b739fdaa_003e8b6a22e437735f25954a4474492b_c28637101be1cefcdf6c88b8b75b2853_4aa7263a672a958532a79dd270bf09af_.css?ver=1545299757" rel="stylesheet" media="screen"  /><link href="/lib/cache/76308064f13f34af7f6526c0949adcdb_e657ea7e846ffd8ef0ec7c58fa211e6a_f4e0736a51192db64272079d13b53049_9403099ec5f26691defaedbca1cf4bd9_.css?ver=1542950924" rel="stylesheet" media="screen"  /><link href="/templates/cp/css/ui-lightness/jquery-ui-1.10.0.custom.css" rel="stylesheet" media="screen" />
+<link href="/lib/cache/02007a3ef58453755fd457c428794a4a.css?ver=1542950924" rel="stylesheet" media="screen" /><link href="/lib/cache/44065b57612a78e9e88138fcd097324f.css?ver=1509281759" rel="stylesheet" media="screen" />
+
+<!-- Google Tag Manager -->
+<script>
+  var dataLayer = [];
+
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KB4N7S3');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Kissmetrics Integration -->
+<script type="text/javascript">var _kmq = _kmq || [];
+  var _kmk = _kmk || 'a4e0fccec940e867a36ba5bdedb4cdb45d039d11';
+  function _kms(u){
+    setTimeout(function(){
+      var d = document, f = d.getElementsByTagName('script')[0],
+        s = d.createElement('script');
+      s.type = 'text/javascript'; s.async = true; s.src = u;
+      f.parentNode.insertBefore(s, f);
+    }, 1);
+  }
+  _kms('//i.kissmetrics.com/i.js');
+  _kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
+</script>
+<!-- /Kissmetrics Integration -->
+
+<!-- WalkMe Integration -->
+<script type="text/javascript">
+      (function() {
+      var walkme = document.createElement('script');
+      walkme.type = 'text/javascript';
+      walkme.async = true;
+      walkme.src = 'https://cdn.walkme.com/users/70c5e13ae17d404abc5dbf81d27b21e3/walkme_70c5e13ae17d404abc5dbf81d27b21e3_https.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(walkme, s);
+      window._walkmeConfig = {
+        smartLoad: true
+      };
+    })();
+  </script>
+<!-- /WalkMe Integration -->
+
+<script src="//use.typekit.net/gcz7etl.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous">
+</script>
+
+<script src="/templates/cp/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+<script src="/lib/cache/bf35ef5df8e18871c27311e117de8261_8a75f24b57fc568570b3cd3eaf651e57_5a636092aa127d3beaa59684fa12d607_c42583c2d4ef285d62de2f4784c3bfc8_.js?ver=1539266823"></script><script src="/lib/cache/bf73ee1d339f143fff1324c2b54d7dac_026b83c5b3a545a5fa8f71394ae8120f_136f3c4d5302018ba22be3d1d5f55335_a1c5b9f515a24616d4fd3ffe2f354190_.js?ver=1542950924"></script><script src="/templates/cp/js/libs/jquery.caret.js"></script>
+<script src="/lib/cache/01a1e18b1a59a971bfb1e8604b4cb573_fa69c4fd4f35978594e13332c73afd03_6638997ea48d9cc4da63a5f876a66af1_ef66d059253c5be25892f424f3d8cbef_9cb9c9cc04ca1d2918175a44b640c95b_fbdbce214fecf4bddd3a47e1da75d14f_.js?ver=1545299757"></script><script src="/templates/cp/js/bootstrap-multiselect.js"></script>
+<script src="/lib/cache/3fa064f2b2ae610ab0c2bba3163db68d.js?ver=1539266823"></script><script src="/lib/cache/fdabc1afb4967e0f4ac2930b9f5f7397.js?ver=1509986819"></script><script src="/lib/cache/c5ae525693d8466b06039cc7f8849bb5.js?ver=1509550690"></script><script>
+
+var ssoConfig = {"domain":"login.linuxacademy.com","clientID":"KaWxNn1C2Gc7n83W9OFeXltd8Utb5vvx","redirectUri":"https:\/\/linuxacademy.com","audience":"https:\/\/linuxacademy.com","responseType":"token id_token","scope":"openid email user_impersonation profile","logoutURL":"https:\/\/linuxacademy.com"};
+var webAuth = new auth0.WebAuth(ssoConfig);
+</script>
+
+
+<script src="/templates/cp/js/plugins/swfobject/swfobject.js"></script>
+
+
+<script src="/lib/cache/3fa064f2b2ae610ab0c2bba3163db68d.js?ver=1539266823"></script><script src="/lib/cache/fdabc1afb4967e0f4ac2930b9f5f7397.js?ver=1509986819"></script>    </head>
+    <body>
+    <style>
+.distrologo {
+height: 18px;
+}
+.serverControls i{
+cursor: pointer;
+}
+*:focus {
+  outline:none;
+}
+.btn-server-dropdown {
+  border-color: #29485b;
+  height:30px;
+  padding: 4px 12px;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -ms-transition: all .3s;
+  transition: all .3s;
+}
+.btn-server-dropdown:hover, .btn-server-dropdown:active, .btn-server-dropdown:focus, .open>.dropdown-toggle.btn-server-dropdown {
+  background-color: #29485b;
+  color:White;
+  border-color:#29485b;
+}
+.btn-server-dropdown i.fa-cog {
+  padding: 0;
+  padding-right:4px;
+}
+.lecture i.fa-caret-down {
+  padding:0;
+}
+.dropdown-menu>li>span {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: 400;
+  line-height: 1.42857143;
+  color: #333;
+  white-space: nowrap;
+  text-decoration: underline;
+}
+.dropdown-menu>li>span>.fa {
+  padding-right:6px;
+  padding-left: 0;
+  width: 20px;
+}
+.server-actions li:hover {
+  color: #262626;
+  cursor:pointer;
+  text-decoration:none;
+  background-color: #f5f5f5;
+}
+.server-actions li:hover span {
+  text-decoration: none;
+}
+.divider {
+  display:none;
+}
+.mount-item {
+  border-top: 1px solid #dddddd;
+  margin-top: 4px;
+}
+.form-inline .form-control-serverlab {
+    width: calc(100% - 50px);
+}
+.role-div {
+    width: calc(100% - 40px);
+    display: inline-block;
+}
+.js_do_not_show_again {
+  display:none;
+}
+#playground-opt-in {
+  background-color: #29485b;
+  margin-left: 10px;
+  color: #fff;
+}
+</style>
+
+<div class="server-lab modal fade" id="lab2">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <!-- Cloud Server Container -->
+          <div class="cloud-server-container">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-close"></i></button>
+              <h3 class="modal-title">Cloud Servers
+
+              <div class="pull-right" style="font-size:medium;padding-top:5px;padding-right:20px" >
+                <label>
+                  Set Region:
+                  <select id="cp_server_region">
+                    <option value="us" selected>United States</option>
+                    <option value="europe">Europe</option>
+                    <option value="asia">Asia</option>
+                    <option value="sydney">Sydney</option>
+                  </select>
+                </label>
+                </div>
+              </h3>
+
+            </div>
+            <div class="progress" id="cloud-servers-loading">
+              <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                <span class="sr-only">Cloud Servers Loading</span>
+              </div>
+            </div>
+            <div id="playground-ready" class="alert alert-info" role="alert">
+                The new Playground is open now. It enhances Cloud Servers with many new features and improvements. We think you will really love it.
+<button class="btn btn-default" type="button" id="playground-opt-in">Try it out now!</button>
+                <p>(Once you opt in, Playground features will permanently replace Cloud Servers. <a href="https://support.linuxacademy.com/hc/en-us/articles/360018145691" target="_blank" > Read More...</a>)</p>
+            </div>
+
+            <div id="playground-not-ready" class="alert alert-info" role="alert">
+                The new Playground is open now. It enhances Cloud Servers with many new features and improvements. If you would like to try it out, you must first delete your old cloud servers. It may take a minute or two after deleting your final legacy server before you are prompted to opt in to the new Playground.
+            </div>
+            <div id="playground-activated" class="alert alert-info" role="alert">
+                The new Playground has been activated for your account. However, you may need to log out and log back in before it becomes available.
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Distribution</th>
+                    <th>Server Actions</th>
+                    <th>Status</th>
+                    <th>Public IP</th>
+                    <th>Private IP</th>
+                    <th>Public Hostnames</th>
+                    <th>Device Mount</th>
+                    <th>Expire Date</th>
+                  </tr>
+                </thead>
+
+                  <tr>
+                    <td headers="MediaTable-0-mediaTableCol-0" class="optional">1</td>
+                    <td headers="MediaTable-0-mediaTableCol-0" class="optional">
+                      <div class="form-inline">
+                        <select class="form-control input-sm" name="ami_1" id="ami_1">
+                        <option value="ami-03f499421dd594999">CentOS 7</option><option value="ami-06425567bb75d0a80">Ubuntu 14 Trusty Tahr LTS</option><option value="ami-083212d77b25ddfa3">Ubuntu 12 (LTS) - Bare Image</option><option value="ami-00e3bb1a4e6c186fb">Debian 7</option><option value="ami-0550f7c0a4f3a3252">Ubuntu OpenSource Chef Server</option><option value="ami-061f1f07aad68b2f6">Chef Enterprise Server 12-8</option><option value="ami-070ee87ff30980f53">Puppet Enterprise 2016</option><option value="ami-039bc50563e5affc2">Redhat Enterprise 7</option><option value="ami-aa3058d5">Python Lab Server</option><option value="ami-03ba0928b4d311406">Ruby On Linux - Ruby 101</option><option value="ami-0e173faa1e58db76f">Linux Essentials</option><option value="ami-0285fbc7609da891b">Ubuntu 16</option><option value="ami-080f5dacd025d53e9">CentOS 6</option><option value="ami-0023fb194ed3a9a12">Ubuntu 14 With Chef Enterprise 12</option><option value="ami-0d67032691692ab87">Nagios CentOS 7 Lab Server</option><option value="ami-0673a666897fc5e01">Debian 9</option><option value="ami-0a194ee1b588efb52">Docker Certification Distribution</option><option value="ami-020baf34fd727a545">CloudNative Kubernetes</option><option value="ami-09c80ed462ea7609b">Amazon Linux 2</option><option value="ami-0d4e3b300a46f8266">CoreOS</option>                        </select>
+                        <span id="distribution_1"></span>
+                        <div class="role-div" id="role_1" style="display:none;">
+                          <span>| Tag:</span>
+                          <select class="form-control input-sm form-control-serverlab" id="server_role_1" name="server_role_1" >
+                            <option value="none">None</option>
+                            <option value="primary">Primary</option>
+                            <option value="secondary">Secondary</option>
+                            <option value="workstation">Work Station</option>
+                            <option value="node">Node</option>
+                            <option value="dev-node">Dev-Node</option>
+                            <option value="prod-node">Prod-Node</option>
+                            <option value="staging-node">Staging-Node</option>
+                            <option value="webserver">Web Server</option>
+                            <option value="dnsserver">DNS Server</option>
+                            <option value="databaseserver">Database Server</option>
+                            <option value="cacheserver">Cache Server</option>
+                            <option value="chefserver">Chef Server</option>
+                            <option value="puppetmaster">Puppet Master</option>
+                            <option value="server">Server</option>
+                            <option value="mysqlserver">MySQL Server</option>
+                            <option value="mariadbserver">MariaDB Server</option>
+                            <option value="PostgresSQL">PostgreSQL Server</option>
+                            <option value="nginxserver">Nginx Server</option>
+                            <option value="apacheserver">Apache Server</option>
+                            <option value="dockerserver">Docker Server</option>
+                            <option value="bindserver">BIND Server</option>
+                            <option value="storageserver">Storage Server</option>
+                            <option value="nfsserver">NFS Server</option>
+                            <option value="monitoring">Monitoring</option>
+                            <option value="Docker">Docker</option>
+                            <option value="kube-master">Kube Master</option>
+                            <option value="pod">Pod</option>
+                            <option value="kubernetes">Kubernetes</option>
+
+                          </select>
+                      </div>
+                    </div>
+                    </td>
+                    <td>
+                      <div class="serverControls">
+                        <div class="dropdown">
+                          <button class="btn btn-default dropdown-toggle btn-server-dropdown" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <i class="fa fa-cog"></i>
+                            <i class="fa fa-caret-down"></i>
+                          </button>
+                          <ul class="dropdown-menu server-actions" aria-labelledby="dropdownMenu1">
+                            <li>
+                              <span class="resetPass" id="reset_password_1" title="Reset Password" style="display:none;" data-serverId="1"><i class="fa fa-unlock-alt"></i>Reset Password</span>
+                            </li>
+                            <li>
+                              <span class="webconsole_ssh" id="webconsole_1" title="Web Console" style="display:none;" data-serverId="1"></span>
+                            </li>
+                            <li>
+                              <span class="webconsole_vnc" id="webconsole_vnc_1" title="VNC Web Console (Beta)" style="display:none;" data-serverId="1"></span>
+                            </li>
+                            <li>
+                              <span class="webconsole_rdp" id="webconsole_rdp_1" title="RDP Web Console" style="display:none;" data-serverId="1"></span>
+                            </li>
+                            <li>
+                              <span id="create_server_1" class="js_how_to_connect_on_create" title="Create Server"><i class="fa fa-play"></i>Create Server</span>
+                            </li>
+                            <li><span id="how_to_connect_1" class="js_how_to_connect" title="How To Connect" style="display:none;"><i class="fa fa-question-circle"></i> How To Connect To Server</span>
+                            </li>
+
+                            <li>
+                              <span id="start_server_1" title="Start Server" style="display:none;"><i class="fa fa-play"></i>Start Server</span>
+                            </li>
+                            <li>
+                              <span id="stop_server_1" title="Stop Server" style="display:none;"><i class="fa fa-stop"></i>Stop Server</span>
+                            </li>
+                            <li>
+                              <span id="delete_server_1" title="Delete Server" style="display:none;"><i class="fa fa-eraser"></i>Delete Server</span>
+                            </li>
+                            <li>
+                              <span class="mount-item mount-item-1" id="mount_device_1" title="Mount Device" style="display:none;"><i class="fa fa-play"></i>Mount Device</span>
+                            </li>
+                            <li>
+                              <span class="mount-item mount-item-2" id="unmount_device_1" title="Delete Device" style="display:none;"><i class="fa fa-eraser"></i>Delete Device</span>
+                            </li>
+                          </ul><span id="console_1" class="margin-left:2px;"></span>
+                        </div>
+                        <!-- <span id="mount_title_1" style="display:none;"> | Mount: </span> -->
+                      </div>
+                    </td>
+
+                      <td id="status_1"></td>
+                      <td id="public_ip_1"></td>
+                      <td id="private_ip_1"></td>
+                      <td id="hostname_1"></td>
+                      <td id="mount_1"></td>
+                      <td id="days_till_expire_1"></td>
+                  </tr>
+
+                  <tr>
+                    <td headers="MediaTable-0-mediaTableCol-0" class="optional">2</td>
+                    <td headers="MediaTable-0-mediaTableCol-0" class="optional">
+                      <div class="form-inline">
+                        <select class="form-control input-sm" name="ami_2" id="ami_2">
+                        <option value="ami-03f499421dd594999">CentOS 7</option><option value="ami-06425567bb75d0a80">Ubuntu 14 Trusty Tahr LTS</option><option value="ami-083212d77b25ddfa3">Ubuntu 12 (LTS) - Bare Image</option><option value="ami-00e3bb1a4e6c186fb">Debian 7</option><option value="ami-0550f7c0a4f3a3252">Ubuntu OpenSource Chef Server</option><option value="ami-061f1f07aad68b2f6">Chef Enterprise Server 12-8</option><option value="ami-070ee87ff30980f53">Puppet Enterprise 2016</option><option value="ami-039bc50563e5affc2">Redhat Enterprise 7</option><option value="ami-aa3058d5">Python Lab Server</option><option value="ami-03ba0928b4d311406">Ruby On Linux - Ruby 101</option><option value="ami-0e173faa1e58db76f">Linux Essentials</option><option value="ami-0285fbc7609da891b">Ubuntu 16</option><option value="ami-080f5dacd025d53e9">CentOS 6</option><option value="ami-0023fb194ed3a9a12">Ubuntu 14 With Chef Enterprise 12</option><option value="ami-0d67032691692ab87">Nagios CentOS 7 Lab Server</option><option value="ami-0673a666897fc5e01">Debian 9</option><option value="ami-0a194ee1b588efb52">Docker Certification Distribution</option><option value="ami-020baf34fd727a545">CloudNative Kubernetes</option><option value="ami-09c80ed462ea7609b">Amazon Linux 2</option><option value="ami-0d4e3b300a46f8266">CoreOS</option>                        </select>
+                        <span id="distribution_2"></span>
+                        <div class="role-div" id="role_2" style="display:none;">
+                          <span>| Tag:</span>
+                          <select class="form-control input-sm form-control-serverlab" id="server_role_2" name="server_role_2" >
+                            <option value="none">None</option>
+                            <option value="primary">Primary</option>
+                            <option value="secondary">Secondary</option>
+                            <option value="workstation">Work Station</option>
+                            <option value="node">Node</option>
+                            <option value="dev-node">Dev-Node</option>
+                            <option value="prod-node">Prod-Node</option>
+                            <option value="staging-node">Staging-Node</option>
+                            <option value="webserver">Web Server</option>
+                            <option value="dnsserver">DNS Server</option>
+                            <option value="databaseserver">Database Server</option>
+                            <option value="cacheserver">Cache Server</option>
+                            <option value="chefserver">Chef Server</option>
+                            <option value="puppetmaster">Puppet Master</option>
+                            <option value="server">Server</option>
+                            <option value="mysqlserver">MySQL Server</option>
+                            <option value="mariadbserver">MariaDB Server</option>
+                            <option value="PostgresSQL">PostgreSQL Server</option>
+                            <option value="nginxserver">Nginx Server</option>
+                            <option value="apacheserver">Apache Server</option>
+                            <option value="dockerserver">Docker Server</option>
+                            <option value="bindserver">BIND Server</option>
+                            <option value="storageserver">Storage Server</option>
+                            <option value="nfsserver">NFS Server</option>
+                            <option value="monitoring">Monitoring</option>
+                            <option value="Docker">Docker</option>
+                            <option value="kube-master">Kube Master</option>
+                            <option value="pod">Pod</option>
+                            <option value="kubernetes">Kubernetes</option>
+
+                          </select>
+                      </div>
+                    </div>
+                    </td>
+                    <td>
+                      <div class="serverControls">
+                        <div class="dropdown">
+                          <button class="btn btn-default dropdown-toggle btn-server-dropdown" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <i class="fa fa-cog"></i>
+                            <i class="fa fa-caret-down"></i>
+                          </button>
+                          <ul class="dropdown-menu server-actions" aria-labelledby="dropdownMenu1">
+                            <li>
+                              <span class="resetPass" id="reset_password_2" title="Reset Password" style="display:none;" data-serverId="2"><i class="fa fa-unlock-alt"></i>Reset Password</span>
+                            </li>
+                            <li>
+                              <span class="webconsole_ssh" id="webconsole_2" title="Web Console" style="display:none;" data-serverId="2"></span>
+                            </li>
+                            <li>
+                              <span class="webconsole_vnc" id="webconsole_vnc_2" title="VNC Web Console (Beta)" style="display:none;" data-serverId="2"></span>
+                            </li>
+                            <li>
+                              <span class="webconsole_rdp" id="webconsole_rdp_2" title="RDP Web Console" style="display:none;" data-serverId="2"></span>
+                            </li>
+                            <li>
+                              <span id="create_server_2" class="js_how_to_connect_on_create" title="Create Server"><i class="fa fa-play"></i>Create Server</span>
+                            </li>
+                            <li><span id="how_to_connect_2" class="js_how_to_connect" title="How To Connect" style="display:none;"><i class="fa fa-question-circle"></i> How To Connect To Server</span>
+                            </li>
+
+                            <li>
+                              <span id="start_server_2" title="Start Server" style="display:none;"><i class="fa fa-play"></i>Start Server</span>
+                            </li>
+                            <li>
+                              <span id="stop_server_2" title="Stop Server" style="display:none;"><i class="fa fa-stop"></i>Stop Server</span>
+                            </li>
+                            <li>
+                              <span id="delete_server_2" title="Delete Server" style="display:none;"><i class="fa fa-eraser"></i>Delete Server</span>
+                            </li>
+                            <li>
+                              <span class="mount-item mount-item-1" id="mount_device_2" title="Mount Device" style="display:none;"><i class="fa fa-play"></i>Mount Device</span>
+                            </li>
+                            <li>
+                              <span class="mount-item mount-item-2" id="unmount_device_2" title="Delete Device" style="display:none;"><i class="fa fa-eraser"></i>Delete Device</span>
+                            </li>
+                          </ul><span id="console_2" class="margin-left:2px;"></span>
+                        </div>
+                        <!-- <span id="mount_title_2" style="display:none;"> | Mount: </span> -->
+                      </div>
+                    </td>
+
+                      <td id="status_2"></td>
+                      <td id="public_ip_2"></td>
+                      <td id="private_ip_2"></td>
+                      <td id="hostname_2"></td>
+                      <td id="mount_2"></td>
+                      <td id="days_till_expire_2"></td>
+                  </tr>
+
+                  <tr>
+                    <td headers="MediaTable-0-mediaTableCol-0" class="optional">3</td>
+                    <td headers="MediaTable-0-mediaTableCol-0" class="optional">
+                      <div class="form-inline">
+                        <select class="form-control input-sm" name="ami_3" id="ami_3">
+                        <option value="ami-03f499421dd594999">CentOS 7</option><option value="ami-06425567bb75d0a80">Ubuntu 14 Trusty Tahr LTS</option><option value="ami-083212d77b25ddfa3">Ubuntu 12 (LTS) - Bare Image</option><option value="ami-00e3bb1a4e6c186fb">Debian 7</option><option value="ami-0550f7c0a4f3a3252">Ubuntu OpenSource Chef Server</option><option value="ami-061f1f07aad68b2f6">Chef Enterprise Server 12-8</option><option value="ami-070ee87ff30980f53">Puppet Enterprise 2016</option><option value="ami-039bc50563e5affc2">Redhat Enterprise 7</option><option value="ami-aa3058d5">Python Lab Server</option><option value="ami-03ba0928b4d311406">Ruby On Linux - Ruby 101</option><option value="ami-0e173faa1e58db76f">Linux Essentials</option><option value="ami-0285fbc7609da891b">Ubuntu 16</option><option value="ami-080f5dacd025d53e9">CentOS 6</option><option value="ami-0023fb194ed3a9a12">Ubuntu 14 With Chef Enterprise 12</option><option value="ami-0d67032691692ab87">Nagios CentOS 7 Lab Server</option><option value="ami-0673a666897fc5e01">Debian 9</option><option value="ami-0a194ee1b588efb52">Docker Certification Distribution</option><option value="ami-020baf34fd727a545">CloudNative Kubernetes</option><option value="ami-09c80ed462ea7609b">Amazon Linux 2</option><option value="ami-0d4e3b300a46f8266">CoreOS</option>                        </select>
+                        <span id="distribution_3"></span>
+                        <div class="role-div" id="role_3" style="display:none;">
+                          <span>| Tag:</span>
+                          <select class="form-control input-sm form-control-serverlab" id="server_role_3" name="server_role_3" >
+                            <option value="none">None</option>
+                            <option value="primary">Primary</option>
+                            <option value="secondary">Secondary</option>
+                            <option value="workstation">Work Station</option>
+                            <option value="node">Node</option>
+                            <option value="dev-node">Dev-Node</option>
+                            <option value="prod-node">Prod-Node</option>
+                            <option value="staging-node">Staging-Node</option>
+                            <option value="webserver">Web Server</option>
+                            <option value="dnsserver">DNS Server</option>
+                            <option value="databaseserver">Database Server</option>
+                            <option value="cacheserver">Cache Server</option>
+                            <option value="chefserver">Chef Server</option>
+                            <option value="puppetmaster">Puppet Master</option>
+                            <option value="server">Server</option>
+                            <option value="mysqlserver">MySQL Server</option>
+                            <option value="mariadbserver">MariaDB Server</option>
+                            <option value="PostgresSQL">PostgreSQL Server</option>
+                            <option value="nginxserver">Nginx Server</option>
+                            <option value="apacheserver">Apache Server</option>
+                            <option value="dockerserver">Docker Server</option>
+                            <option value="bindserver">BIND Server</option>
+                            <option value="storageserver">Storage Server</option>
+                            <option value="nfsserver">NFS Server</option>
+                            <option value="monitoring">Monitoring</option>
+                            <option value="Docker">Docker</option>
+                            <option value="kube-master">Kube Master</option>
+                            <option value="pod">Pod</option>
+                            <option value="kubernetes">Kubernetes</option>
+
+                          </select>
+                      </div>
+                    </div>
+                    </td>
+                    <td>
+                      <div class="serverControls">
+                        <div class="dropdown">
+                          <button class="btn btn-default dropdown-toggle btn-server-dropdown" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <i class="fa fa-cog"></i>
+                            <i class="fa fa-caret-down"></i>
+                          </button>
+                          <ul class="dropdown-menu server-actions" aria-labelledby="dropdownMenu1">
+                            <li>
+                              <span class="resetPass" id="reset_password_3" title="Reset Password" style="display:none;" data-serverId="3"><i class="fa fa-unlock-alt"></i>Reset Password</span>
+                            </li>
+                            <li>
+                              <span class="webconsole_ssh" id="webconsole_3" title="Web Console" style="display:none;" data-serverId="3"></span>
+                            </li>
+                            <li>
+                              <span class="webconsole_vnc" id="webconsole_vnc_3" title="VNC Web Console (Beta)" style="display:none;" data-serverId="3"></span>
+                            </li>
+                            <li>
+                              <span class="webconsole_rdp" id="webconsole_rdp_3" title="RDP Web Console" style="display:none;" data-serverId="3"></span>
+                            </li>
+                            <li>
+                              <span id="create_server_3" class="js_how_to_connect_on_create" title="Create Server"><i class="fa fa-play"></i>Create Server</span>
+                            </li>
+                            <li><span id="how_to_connect_3" class="js_how_to_connect" title="How To Connect" style="display:none;"><i class="fa fa-question-circle"></i> How To Connect To Server</span>
+                            </li>
+
+                            <li>
+                              <span id="start_server_3" title="Start Server" style="display:none;"><i class="fa fa-play"></i>Start Server</span>
+                            </li>
+                            <li>
+                              <span id="stop_server_3" title="Stop Server" style="display:none;"><i class="fa fa-stop"></i>Stop Server</span>
+                            </li>
+                            <li>
+                              <span id="delete_server_3" title="Delete Server" style="display:none;"><i class="fa fa-eraser"></i>Delete Server</span>
+                            </li>
+                            <li>
+                              <span class="mount-item mount-item-1" id="mount_device_3" title="Mount Device" style="display:none;"><i class="fa fa-play"></i>Mount Device</span>
+                            </li>
+                            <li>
+                              <span class="mount-item mount-item-2" id="unmount_device_3" title="Delete Device" style="display:none;"><i class="fa fa-eraser"></i>Delete Device</span>
+                            </li>
+                          </ul><span id="console_3" class="margin-left:2px;"></span>
+                        </div>
+                        <!-- <span id="mount_title_3" style="display:none;"> | Mount: </span> -->
+                      </div>
+                    </td>
+
+                      <td id="status_3"></td>
+                      <td id="public_ip_3"></td>
+                      <td id="private_ip_3"></td>
+                      <td id="hostname_3"></td>
+                      <td id="mount_3"></td>
+                      <td id="days_till_expire_3"></td>
+                  </tr>
+
+                  <tr>
+                    <td headers="MediaTable-0-mediaTableCol-0" class="optional">4</td>
+                    <td headers="MediaTable-0-mediaTableCol-0" class="optional">
+                      <div class="form-inline">
+                        <select class="form-control input-sm" name="ami_4" id="ami_4">
+                        <option value="ami-03f499421dd594999">CentOS 7</option><option value="ami-06425567bb75d0a80">Ubuntu 14 Trusty Tahr LTS</option><option value="ami-083212d77b25ddfa3">Ubuntu 12 (LTS) - Bare Image</option><option value="ami-00e3bb1a4e6c186fb">Debian 7</option><option value="ami-0550f7c0a4f3a3252">Ubuntu OpenSource Chef Server</option><option value="ami-061f1f07aad68b2f6">Chef Enterprise Server 12-8</option><option value="ami-070ee87ff30980f53">Puppet Enterprise 2016</option><option value="ami-039bc50563e5affc2">Redhat Enterprise 7</option><option value="ami-aa3058d5">Python Lab Server</option><option value="ami-03ba0928b4d311406">Ruby On Linux - Ruby 101</option><option value="ami-0e173faa1e58db76f">Linux Essentials</option><option value="ami-0285fbc7609da891b">Ubuntu 16</option><option value="ami-080f5dacd025d53e9">CentOS 6</option><option value="ami-0023fb194ed3a9a12">Ubuntu 14 With Chef Enterprise 12</option><option value="ami-0d67032691692ab87">Nagios CentOS 7 Lab Server</option><option value="ami-0673a666897fc5e01">Debian 9</option><option value="ami-0a194ee1b588efb52">Docker Certification Distribution</option><option value="ami-020baf34fd727a545">CloudNative Kubernetes</option><option value="ami-09c80ed462ea7609b">Amazon Linux 2</option><option value="ami-0d4e3b300a46f8266">CoreOS</option>                        </select>
+                        <span id="distribution_4"></span>
+                        <div class="role-div" id="role_4" style="display:none;">
+                          <span>| Tag:</span>
+                          <select class="form-control input-sm form-control-serverlab" id="server_role_4" name="server_role_4" >
+                            <option value="none">None</option>
+                            <option value="primary">Primary</option>
+                            <option value="secondary">Secondary</option>
+                            <option value="workstation">Work Station</option>
+                            <option value="node">Node</option>
+                            <option value="dev-node">Dev-Node</option>
+                            <option value="prod-node">Prod-Node</option>
+                            <option value="staging-node">Staging-Node</option>
+                            <option value="webserver">Web Server</option>
+                            <option value="dnsserver">DNS Server</option>
+                            <option value="databaseserver">Database Server</option>
+                            <option value="cacheserver">Cache Server</option>
+                            <option value="chefserver">Chef Server</option>
+                            <option value="puppetmaster">Puppet Master</option>
+                            <option value="server">Server</option>
+                            <option value="mysqlserver">MySQL Server</option>
+                            <option value="mariadbserver">MariaDB Server</option>
+                            <option value="PostgresSQL">PostgreSQL Server</option>
+                            <option value="nginxserver">Nginx Server</option>
+                            <option value="apacheserver">Apache Server</option>
+                            <option value="dockerserver">Docker Server</option>
+                            <option value="bindserver">BIND Server</option>
+                            <option value="storageserver">Storage Server</option>
+                            <option value="nfsserver">NFS Server</option>
+                            <option value="monitoring">Monitoring</option>
+                            <option value="Docker">Docker</option>
+                            <option value="kube-master">Kube Master</option>
+                            <option value="pod">Pod</option>
+                            <option value="kubernetes">Kubernetes</option>
+
+                          </select>
+                      </div>
+                    </div>
+                    </td>
+                    <td>
+                      <div class="serverControls">
+                        <div class="dropdown">
+                          <button class="btn btn-default dropdown-toggle btn-server-dropdown" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <i class="fa fa-cog"></i>
+                            <i class="fa fa-caret-down"></i>
+                          </button>
+                          <ul class="dropdown-menu server-actions" aria-labelledby="dropdownMenu1">
+                            <li>
+                              <span class="resetPass" id="reset_password_4" title="Reset Password" style="display:none;" data-serverId="4"><i class="fa fa-unlock-alt"></i>Reset Password</span>
+                            </li>
+                            <li>
+                              <span class="webconsole_ssh" id="webconsole_4" title="Web Console" style="display:none;" data-serverId="4"></span>
+                            </li>
+                            <li>
+                              <span class="webconsole_vnc" id="webconsole_vnc_4" title="VNC Web Console (Beta)" style="display:none;" data-serverId="4"></span>
+                            </li>
+                            <li>
+                              <span class="webconsole_rdp" id="webconsole_rdp_4" title="RDP Web Console" style="display:none;" data-serverId="4"></span>
+                            </li>
+                            <li>
+                              <span id="create_server_4" class="js_how_to_connect_on_create" title="Create Server"><i class="fa fa-play"></i>Create Server</span>
+                            </li>
+                            <li><span id="how_to_connect_4" class="js_how_to_connect" title="How To Connect" style="display:none;"><i class="fa fa-question-circle"></i> How To Connect To Server</span>
+                            </li>
+
+                            <li>
+                              <span id="start_server_4" title="Start Server" style="display:none;"><i class="fa fa-play"></i>Start Server</span>
+                            </li>
+                            <li>
+                              <span id="stop_server_4" title="Stop Server" style="display:none;"><i class="fa fa-stop"></i>Stop Server</span>
+                            </li>
+                            <li>
+                              <span id="delete_server_4" title="Delete Server" style="display:none;"><i class="fa fa-eraser"></i>Delete Server</span>
+                            </li>
+                            <li>
+                              <span class="mount-item mount-item-1" id="mount_device_4" title="Mount Device" style="display:none;"><i class="fa fa-play"></i>Mount Device</span>
+                            </li>
+                            <li>
+                              <span class="mount-item mount-item-2" id="unmount_device_4" title="Delete Device" style="display:none;"><i class="fa fa-eraser"></i>Delete Device</span>
+                            </li>
+                          </ul><span id="console_4" class="margin-left:2px;"></span>
+                        </div>
+                        <!-- <span id="mount_title_4" style="display:none;"> | Mount: </span> -->
+                      </div>
+                    </td>
+
+                      <td id="status_4"></td>
+                      <td id="public_ip_4"></td>
+                      <td id="private_ip_4"></td>
+                      <td id="hostname_4"></td>
+                      <td id="mount_4"></td>
+                      <td id="days_till_expire_4"></td>
+                  </tr>
+
+                  <tr>
+                    <td headers="MediaTable-0-mediaTableCol-0" class="optional">5</td>
+                    <td headers="MediaTable-0-mediaTableCol-0" class="optional">
+                      <div class="form-inline">
+                        <select class="form-control input-sm" name="ami_5" id="ami_5">
+                        <option value="ami-03f499421dd594999">CentOS 7</option><option value="ami-06425567bb75d0a80">Ubuntu 14 Trusty Tahr LTS</option><option value="ami-083212d77b25ddfa3">Ubuntu 12 (LTS) - Bare Image</option><option value="ami-00e3bb1a4e6c186fb">Debian 7</option><option value="ami-0550f7c0a4f3a3252">Ubuntu OpenSource Chef Server</option><option value="ami-061f1f07aad68b2f6">Chef Enterprise Server 12-8</option><option value="ami-070ee87ff30980f53">Puppet Enterprise 2016</option><option value="ami-039bc50563e5affc2">Redhat Enterprise 7</option><option value="ami-aa3058d5">Python Lab Server</option><option value="ami-03ba0928b4d311406">Ruby On Linux - Ruby 101</option><option value="ami-0e173faa1e58db76f">Linux Essentials</option><option value="ami-0285fbc7609da891b">Ubuntu 16</option><option value="ami-080f5dacd025d53e9">CentOS 6</option><option value="ami-0023fb194ed3a9a12">Ubuntu 14 With Chef Enterprise 12</option><option value="ami-0d67032691692ab87">Nagios CentOS 7 Lab Server</option><option value="ami-0673a666897fc5e01">Debian 9</option><option value="ami-0a194ee1b588efb52">Docker Certification Distribution</option><option value="ami-020baf34fd727a545">CloudNative Kubernetes</option><option value="ami-09c80ed462ea7609b">Amazon Linux 2</option><option value="ami-0d4e3b300a46f8266">CoreOS</option>                        </select>
+                        <span id="distribution_5"></span>
+                        <div class="role-div" id="role_5" style="display:none;">
+                          <span>| Tag:</span>
+                          <select class="form-control input-sm form-control-serverlab" id="server_role_5" name="server_role_5" >
+                            <option value="none">None</option>
+                            <option value="primary">Primary</option>
+                            <option value="secondary">Secondary</option>
+                            <option value="workstation">Work Station</option>
+                            <option value="node">Node</option>
+                            <option value="dev-node">Dev-Node</option>
+                            <option value="prod-node">Prod-Node</option>
+                            <option value="staging-node">Staging-Node</option>
+                            <option value="webserver">Web Server</option>
+                            <option value="dnsserver">DNS Server</option>
+                            <option value="databaseserver">Database Server</option>
+                            <option value="cacheserver">Cache Server</option>
+                            <option value="chefserver">Chef Server</option>
+                            <option value="puppetmaster">Puppet Master</option>
+                            <option value="server">Server</option>
+                            <option value="mysqlserver">MySQL Server</option>
+                            <option value="mariadbserver">MariaDB Server</option>
+                            <option value="PostgresSQL">PostgreSQL Server</option>
+                            <option value="nginxserver">Nginx Server</option>
+                            <option value="apacheserver">Apache Server</option>
+                            <option value="dockerserver">Docker Server</option>
+                            <option value="bindserver">BIND Server</option>
+                            <option value="storageserver">Storage Server</option>
+                            <option value="nfsserver">NFS Server</option>
+                            <option value="monitoring">Monitoring</option>
+                            <option value="Docker">Docker</option>
+                            <option value="kube-master">Kube Master</option>
+                            <option value="pod">Pod</option>
+                            <option value="kubernetes">Kubernetes</option>
+
+                          </select>
+                      </div>
+                    </div>
+                    </td>
+                    <td>
+                      <div class="serverControls">
+                        <div class="dropdown">
+                          <button class="btn btn-default dropdown-toggle btn-server-dropdown" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <i class="fa fa-cog"></i>
+                            <i class="fa fa-caret-down"></i>
+                          </button>
+                          <ul class="dropdown-menu server-actions" aria-labelledby="dropdownMenu1">
+                            <li>
+                              <span class="resetPass" id="reset_password_5" title="Reset Password" style="display:none;" data-serverId="5"><i class="fa fa-unlock-alt"></i>Reset Password</span>
+                            </li>
+                            <li>
+                              <span class="webconsole_ssh" id="webconsole_5" title="Web Console" style="display:none;" data-serverId="5"></span>
+                            </li>
+                            <li>
+                              <span class="webconsole_vnc" id="webconsole_vnc_5" title="VNC Web Console (Beta)" style="display:none;" data-serverId="5"></span>
+                            </li>
+                            <li>
+                              <span class="webconsole_rdp" id="webconsole_rdp_5" title="RDP Web Console" style="display:none;" data-serverId="5"></span>
+                            </li>
+                            <li>
+                              <span id="create_server_5" class="js_how_to_connect_on_create" title="Create Server"><i class="fa fa-play"></i>Create Server</span>
+                            </li>
+                            <li><span id="how_to_connect_5" class="js_how_to_connect" title="How To Connect" style="display:none;"><i class="fa fa-question-circle"></i> How To Connect To Server</span>
+                            </li>
+
+                            <li>
+                              <span id="start_server_5" title="Start Server" style="display:none;"><i class="fa fa-play"></i>Start Server</span>
+                            </li>
+                            <li>
+                              <span id="stop_server_5" title="Stop Server" style="display:none;"><i class="fa fa-stop"></i>Stop Server</span>
+                            </li>
+                            <li>
+                              <span id="delete_server_5" title="Delete Server" style="display:none;"><i class="fa fa-eraser"></i>Delete Server</span>
+                            </li>
+                            <li>
+                              <span class="mount-item mount-item-1" id="mount_device_5" title="Mount Device" style="display:none;"><i class="fa fa-play"></i>Mount Device</span>
+                            </li>
+                            <li>
+                              <span class="mount-item mount-item-2" id="unmount_device_5" title="Delete Device" style="display:none;"><i class="fa fa-eraser"></i>Delete Device</span>
+                            </li>
+                          </ul><span id="console_5" class="margin-left:2px;"></span>
+                        </div>
+                        <!-- <span id="mount_title_5" style="display:none;"> | Mount: </span> -->
+                      </div>
+                    </td>
+
+                      <td id="status_5"></td>
+                      <td id="public_ip_5"></td>
+                      <td id="private_ip_5"></td>
+                      <td id="hostname_5"></td>
+                      <td id="mount_5"></td>
+                      <td id="days_till_expire_5"></td>
+                  </tr>
+
+                  <tr>
+                    <td headers="MediaTable-0-mediaTableCol-0" class="optional">6</td>
+                    <td headers="MediaTable-0-mediaTableCol-0" class="optional">
+                      <div class="form-inline">
+                        <select class="form-control input-sm" name="ami_6" id="ami_6">
+                        <option value="ami-03f499421dd594999">CentOS 7</option><option value="ami-06425567bb75d0a80">Ubuntu 14 Trusty Tahr LTS</option><option value="ami-083212d77b25ddfa3">Ubuntu 12 (LTS) - Bare Image</option><option value="ami-00e3bb1a4e6c186fb">Debian 7</option><option value="ami-0550f7c0a4f3a3252">Ubuntu OpenSource Chef Server</option><option value="ami-061f1f07aad68b2f6">Chef Enterprise Server 12-8</option><option value="ami-070ee87ff30980f53">Puppet Enterprise 2016</option><option value="ami-039bc50563e5affc2">Redhat Enterprise 7</option><option value="ami-aa3058d5">Python Lab Server</option><option value="ami-03ba0928b4d311406">Ruby On Linux - Ruby 101</option><option value="ami-0e173faa1e58db76f">Linux Essentials</option><option value="ami-0285fbc7609da891b">Ubuntu 16</option><option value="ami-080f5dacd025d53e9">CentOS 6</option><option value="ami-0023fb194ed3a9a12">Ubuntu 14 With Chef Enterprise 12</option><option value="ami-0d67032691692ab87">Nagios CentOS 7 Lab Server</option><option value="ami-0673a666897fc5e01">Debian 9</option><option value="ami-0a194ee1b588efb52">Docker Certification Distribution</option><option value="ami-020baf34fd727a545">CloudNative Kubernetes</option><option value="ami-09c80ed462ea7609b">Amazon Linux 2</option><option value="ami-0d4e3b300a46f8266">CoreOS</option>                        </select>
+                        <span id="distribution_6"></span>
+                        <div class="role-div" id="role_6" style="display:none;">
+                          <span>| Tag:</span>
+                          <select class="form-control input-sm form-control-serverlab" id="server_role_6" name="server_role_6" >
+                            <option value="none">None</option>
+                            <option value="primary">Primary</option>
+                            <option value="secondary">Secondary</option>
+                            <option value="workstation">Work Station</option>
+                            <option value="node">Node</option>
+                            <option value="dev-node">Dev-Node</option>
+                            <option value="prod-node">Prod-Node</option>
+                            <option value="staging-node">Staging-Node</option>
+                            <option value="webserver">Web Server</option>
+                            <option value="dnsserver">DNS Server</option>
+                            <option value="databaseserver">Database Server</option>
+                            <option value="cacheserver">Cache Server</option>
+                            <option value="chefserver">Chef Server</option>
+                            <option value="puppetmaster">Puppet Master</option>
+                            <option value="server">Server</option>
+                            <option value="mysqlserver">MySQL Server</option>
+                            <option value="mariadbserver">MariaDB Server</option>
+                            <option value="PostgresSQL">PostgreSQL Server</option>
+                            <option value="nginxserver">Nginx Server</option>
+                            <option value="apacheserver">Apache Server</option>
+                            <option value="dockerserver">Docker Server</option>
+                            <option value="bindserver">BIND Server</option>
+                            <option value="storageserver">Storage Server</option>
+                            <option value="nfsserver">NFS Server</option>
+                            <option value="monitoring">Monitoring</option>
+                            <option value="Docker">Docker</option>
+                            <option value="kube-master">Kube Master</option>
+                            <option value="pod">Pod</option>
+                            <option value="kubernetes">Kubernetes</option>
+
+                          </select>
+                      </div>
+                    </div>
+                    </td>
+                    <td>
+                      <div class="serverControls">
+                        <div class="dropdown">
+                          <button class="btn btn-default dropdown-toggle btn-server-dropdown" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <i class="fa fa-cog"></i>
+                            <i class="fa fa-caret-down"></i>
+                          </button>
+                          <ul class="dropdown-menu server-actions" aria-labelledby="dropdownMenu1">
+                            <li>
+                              <span class="resetPass" id="reset_password_6" title="Reset Password" style="display:none;" data-serverId="6"><i class="fa fa-unlock-alt"></i>Reset Password</span>
+                            </li>
+                            <li>
+                              <span class="webconsole_ssh" id="webconsole_6" title="Web Console" style="display:none;" data-serverId="6"></span>
+                            </li>
+                            <li>
+                              <span class="webconsole_vnc" id="webconsole_vnc_6" title="VNC Web Console (Beta)" style="display:none;" data-serverId="6"></span>
+                            </li>
+                            <li>
+                              <span class="webconsole_rdp" id="webconsole_rdp_6" title="RDP Web Console" style="display:none;" data-serverId="6"></span>
+                            </li>
+                            <li>
+                              <span id="create_server_6" class="js_how_to_connect_on_create" title="Create Server"><i class="fa fa-play"></i>Create Server</span>
+                            </li>
+                            <li><span id="how_to_connect_6" class="js_how_to_connect" title="How To Connect" style="display:none;"><i class="fa fa-question-circle"></i> How To Connect To Server</span>
+                            </li>
+
+                            <li>
+                              <span id="start_server_6" title="Start Server" style="display:none;"><i class="fa fa-play"></i>Start Server</span>
+                            </li>
+                            <li>
+                              <span id="stop_server_6" title="Stop Server" style="display:none;"><i class="fa fa-stop"></i>Stop Server</span>
+                            </li>
+                            <li>
+                              <span id="delete_server_6" title="Delete Server" style="display:none;"><i class="fa fa-eraser"></i>Delete Server</span>
+                            </li>
+                            <li>
+                              <span class="mount-item mount-item-1" id="mount_device_6" title="Mount Device" style="display:none;"><i class="fa fa-play"></i>Mount Device</span>
+                            </li>
+                            <li>
+                              <span class="mount-item mount-item-2" id="unmount_device_6" title="Delete Device" style="display:none;"><i class="fa fa-eraser"></i>Delete Device</span>
+                            </li>
+                          </ul><span id="console_6" class="margin-left:2px;"></span>
+                        </div>
+                        <!-- <span id="mount_title_6" style="display:none;"> | Mount: </span> -->
+                      </div>
+                    </td>
+
+                      <td id="status_6"></td>
+                      <td id="public_ip_6"></td>
+                      <td id="private_ip_6"></td>
+                      <td id="hostname_6"></td>
+                      <td id="mount_6"></td>
+                      <td id="days_till_expire_6"></td>
+                  </tr>
+                              </table>
+
+            </div>
+            <div class="modal-footer">
+              <div class="row">
+                                <div class="col-xs-12 server-lab-upgrade-bg text-center">
+                  <span class="server-lab-upgrade-msg">Upgrade now to access all 6 Cloud Servers!</span>
+                  <div class="upgrade-btn">
+                      <a class="btn btn-la btn-la-lg" href="/cp/plan">Upgrade!</a>
+                  </div>
+                </div>
+                                <div class="col-md-10 faq">
+                  <h4>Cloud Server FAQ</h4>
+                  <p>Default Server User: [user]</p>
+                  <p>Default Server Pass: [123456]</p>
+                  <p>Default Root Pass: [123456]</p>
+                  <p class="note">
+                    <strong>
+                      Note: Depending on your internet provider or DNS lookup server, public hostnames might take extra time to resolve to your Cloud Servers new IP address.
+                    </strong>
+                  </p>
+                                  <p>Linux: Use the default "terminal" application</p>
+                  <p>OS X: Use the default "terminal" Application</p>
+                  <p>Windows: Download PUTTY <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html">here</a></p>
+                </div>
+                <div class="col-md-2">
+                  <p>
+                    <strong id="minutes_till_timeout">120 Minutes Till Timeout</strong>
+                  </p>
+                  <button type="button" class="btn btn-la btn-la-major" id="refresh_timeout">Refresh Timeout</button>
+                  <br><br>
+                  <button type="button" class="btn btn-la btn-la-minor" data-dismiss="modal">Close</button>
+
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!-- End cloud server content container -->
+
+          <!-- How to content container -->
+          <div class="how-to-container">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-close"></i></button>
+              <h3 class="modal-title">Connecting to Cloud Servers</h3>   <!-- <button type="button" class="btn btn-la btn-la-minor" data-dismiss="modal">Skip This Screen</button> -->
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-sm-6 col-md-5 col-lg-4 how-to-information">
+                  <div class="alert alert-danger" role="alert">
+                    <strong>Root user login is disabled by default.</strong> Please see instructions on how to connect.
+                    <br />Root access is allowed only after logging in as user "user" or any other regular user.
+                    <ol>
+                      <li>Once logged in with "user" type "su"</li>
+                      <li>Enter password "123456"</li>
+                      <li>Confirm password "123456"</li>
+                      <li>Enter your own customer password</li>
+                      <li>Root login is disabled by default so you will always need to login as a regular user first</li>
+                    </ol>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12 how-to-bullet">
+                      <i class="fa fa-television"></i><span>A Virtual Machine is being provisioned for you, this may take a few moments.</span>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12 how-to-bullet">
+                      <i class="fa fa-usd"></i><span>The cost of the real Cloud Servers are covered as part of your membership.</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-7 col-lg-8 how-to-instructions">
+                  <h3>How to connect</h3>
+                  <p>1. You can connect to the virtual machine once it is running by selecting Login next to the gear box.</p>
+                  <img src='/templates/cp/assets/img/server-login.png' />
+                  <p>2. The default username is <strong>user</strong> and default password is <strong>123456</strong>.</p>
+                  <img src='/templates/cp/assets/img/login1.png' />
+                  <p>3. On first login you will enter your <strong>123456</strong> password again a second time.</p>
+                  <img src='/templates/cp/assets/img/enter-current-password.png' />
+                  <p>4. Then you can enter in your new password.</p>
+                  <img src='/templates/cp/assets/img/enter-new-password.png' />
+                </div>
+
+              </div>
+            </div>
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-la btn-la-minor js_hide_how_to">Ok, got it.</button>
+               <button type="button" class="btn btn-la btn-la-major js_hide_how_to js_do_not_show_again">Don't Show Again</button>
+
+            </div>
+          </div>
+          <!-- End how to content container -->
+
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div>
+<script src="/lib/cache/0780bbe4cb42ff5d176673d477cd877c.js?ver=1542950924"></script><script>
+
+$( document ).ready(function() {
+
+  var previous = '';
+  $.get('/cp/account/api/action/getServerRegion/ajax/1', function(data){
+    $('#cp_server_region').val(data);
+  });
+
+  $('#cp_server_region').on('focus', function(){
+    previous = $(this).val();
+  }).change(function(){
+    var selector = $(this);
+    $.get('/cp/server2/status/ajax/1', function(data){
+      if(data.server_status == 'none'){
+        $.post('/cp/account/api/action/setServerRegion/ajax/1', { region: $(selector).val() })
+      } else {
+        $(selector).val(previous);
+        $.msgbox("To change server regions, you must first delete all existing servers", {type: "info"});
+      }
+    });
+  });
+
+
+var createCookieVariable;
+  //on click of 'create': hide normal content/show how to ONLY ONCE
+
+
+$('.js_do_not_show_again').on("click", function() {
+  $.cookie("do-not-show", "true", "/");
+
+});
+
+
+
+if(typeof $.cookie('do-not-show') === 'undefined') {
+
+  $('.js_how_to_connect_on_create').on("click", function() {
+    if (createCookieVariable == true) {
+      //do nothing and dont show user the how to guide
+    } else {
+      //hide normal content
+      hideNormalContent();
+      setTimeout(function() {
+        $('.cloud-server-container').css("display","none");
+        showHowToConnect();
+      }, 750);
+      //show how to content
+      setTimeout(function() {
+
+      }, 400);
+      //set cookie variable to true
+      createCookieVariable = true;
+      $('.js_do_not_show_again').css("display","inline-block");
+    }
+  });
+
+ }
+
+
+  //on click of 'how to connect': hide normal content/show how to
+  $('.js_how_to_connect').on("click", function() {
+    //hide normal content
+    hideNormalContent();
+    setTimeout(function() {
+      $('.cloud-server-container').css("display","none");
+      showHowToConnect();
+    }, 750);
+    //show how to content
+    setTimeout(function() {
+
+    }, 400);
+    $('.js_do_not_show_again').css("display","none");
+  });
+
+  //reset proprties for animations on modal close
+  $('#lab2').on('hidden.bs.modal', function () {
+    $('.how-to-container').css("display","none").removeClass('show-fade');
+    $('.cloud-server-container').removeClass('hide-fade').css({'display':'block'});
+  });
+
+  //on click of "Ok, got it." button, slide back in normal content
+  $('#lab2').on('click','.js_hide_how_to', function() {
+    //slide out how to instructions
+    $('.how-to-container').removeClass('show-fade');
+    setTimeout(function() {
+      $('.js_do_not_show_again').css("display","none");
+      $('.how-to-container').css("display","none");
+      $('.cloud-server-container').css("display","block");
+    }, 750);
+    //slide in cloud server info
+    setTimeout(function() {
+      $('.cloud-server-container').removeClass('hide-fade');
+    }, 400);
+  });
+});
+
+//hide normal content function
+function hideNormalContent() {
+  $('.cloud-server-container').addClass('hide-fade');
+}
+
+//show how to function
+function showHowToConnect() {
+  $('.how-to-container').css("display","block");
+  setTimeout(function() {
+    $('.how-to-container').addClass('show-fade');
+  }, 100);
+}
+</script>
+
+<script>
+$('.resetPass').on('click', function(){
+  var serverID = $(this).attr('data-serverId');
+  $.msgbox("Are you sure that you want to reset the password for this server?",
+    {
+      type: "confirm",
+      buttons: [{ type: "submit", value: "Yes"}, { type: "cancel", value: "Cancel" }]
+    },
+    function(result) {
+      if (result == "Yes") {
+        var username = prompt("Enter the username for the password you would like to reset");
+        if (username != null) {
+
+            username = username.trim();
+            $.get( '/cp/server2/resetpassword/server_number/' + serverID + '/username/' + username, function(data) {
+              if(data){
+                if(data == '1'){
+                  $.msgbox("Your password has been reset successfully to 123456", {type: "info"});
+                } else {
+                  $.msgbox("There was an error restting your password", {type: "info"});
+                }
+              }
+            });
+        };
+      };
+    }
+  );
+});
+
+$('.webconsole_vnc').on('click', function(){
+
+  var serverID = $(this).attr('data-serverId');
+       $.get( '/cp/server2/startvnc/server_number/' + serverID, function(data) {
+
+              if(data){
+                if(data == '1'){
+
+                } else {
+                  $.msgbox("There was an error starting VNC server", {type: "info"});
+                }
+              }
+            });
+
+});
+
+$('.webconsole_rdp').on('click', function(){
+
+  var serverID = $(this).attr('data-serverId');
+       $.get( '/cp/server2/startrdp/server_number/' + serverID, function(data) {
+
+              if(data){
+                if(data == '1'){
+
+                } else {
+                  $.msgbox("There was an error starting RDP server", {type: "info"});
+                }
+              }
+            });
+
+});
+
+
+
+
+</script>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KB4N7S3"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<script>
+    dataLayer.push({
+        'user_id': '100488',
+        'organization_id': '0',
+        'event': 'account_information_available',
+              'enrolled_current_plan': '947',
+      'enrolled_plan_type': 'single',
+      'enrolled_subscription': 'msft-key',
+      'enrolled_price': '0',
+      'enrolled_term': '3',
+      'enrolled_trial_period': '0',
+      'enrolled_trial_period_unit': '',
+      'enrolled_trial_price': '0',
+      'enrolled_trial_period_time': '0',
+      'enrolled_standard': '0',
+      'enrolled_educational': '0',
+      'enrolled_no_enterprise': '0',
+      'enrolled_team': '0',
+      'enrolled_licensees': '0'
+            });
+</script><link href="/lib/cache/d7079f60d3c8df7d98254f1d9724ef11.css?ver=1546129093844" rel="stylesheet" media="screen"></link>
+<div id="internal-promo-banner">
+    <a href="https://linuxacademy.com/blog/linuxacademy-com/announcements/2018-year-in-review/?utm_source=homepage&utm_medium=sitebanner&utm_campaign=Jan2019CourseLaunch" target="_blank">
+        <div class="container banner-content">
+            <div>
+                <div class="title-container">
+                    <div class="title">Get the latest cloud skills to stay ahead of the curve.<span>More new and updated hands-on training coming in January.</span></div>
+                </div>
+            </div>
+            <div class="la-btn">
+                <span>Learn more <i class="fas fa-arrow-right"></i></span>
+            </div>
+        </div>
+    </a>
+</div><script src="/lib/cache/e54097eb805482d8a0f4d45cff9722aa.js?ver=1539266823"></script>
+<link rel="stylesheet" href="https://d3bm05a1cocdno.cloudfront.net/styles.bundle.css">
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<div id="headerContainer"></div><script src="/lib/cache/2a27a0e81066a2ec2d1b313598501390.js?ver=1539266823"></script><script src="/lib/cache/03150501d50f31e9f3815fbe1580ccb4.js?ver=1539266823"></script>
+<link rel="stylesheet" href="/templates/cp/assets/css/bootstrap-multiselect.css" type="text/css"/>
+
+<link href="/lib/cache/a60fdcbff4ade85369d51b4a2f905577.css?ver=1539266823" rel="stylesheet" media="screen" />
+<div class="section">
+    <div id="top" class="container library-container">
+
+        <div class="row text-right new-la-button-row">
+            <a href="#" class="btn btn-primary btn-new-la" data-env="production">Try the New Linux Academy</a>
+        </div>
+
+        <!-- Header Template for Quick Training -->
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="search-filter-row">
+                    <!-- Title/time DD row -->
+                    <div class="row quick-training-header-title-row">
+                        <!-- Page title -->
+                        <div class="col-xs-12 col-sm-9">
+                                                            <h2 class="catalog-title">Hands-on Labs</h2>
+                                                                                        <span class="catalog-subtitle">Hands-on, scenario-based labs give you experience in real Linux, AWS, OpenStack, and DevOps environments.</span>
+                                                    </div>
+                        <!-- Time to spare DD -->
+                        <div class="col-xs-12 col-sm-3 text-right">
+                                                    </div>
+                    </div>
+
+                    <!-- Filter/search input row -->
+                    <div class="row quick-training-header-options-row">
+
+                        <!-- Filters section -->
+                        <div class="col-xs-12 col-sm-8 text-left">
+
+                            <div class="library-topic-btn-container">
+                                <!-- Select for Topic -->
+                                <select class="select-topic" multiple="multiple">
+    <option value="cloud" >Cloud</option>
+    <option value="aws" >AWS</option>
+    <option value="azure" >Azure</option>
+    <option value="googlecloud" >Google Cloud Platform</option>
+    <option value="linux" >Linux</option>
+    <option value="devops" >DevOps</option>
+    <option value="containers" >Containers</option>
+    <option value="openstack" >OpenStack</option>
+    <option value="bigdata" >Big Data</option>
+    <option value="security" >Security</option>
+</select>
+                            </div>
+
+                            <div class="library-type-btn-container">
+                                <!-- Select for Type -->
+                                <select class="select-type ripple-btn" multiple="multiple" style="display:none;">
+    <option value="courses" >Courses</option>
+    <option value="livelabs" selected>Hands-On Labs</option>
+    <option value="learningpaths" >Learning Paths</option>
+    <option value="nuggets" >Nuggets</option>
+    <option value="guides" >Guides</option>
+</select>                            </div>
+                        </div>
+
+                        <!-- Search bar -->
+                        <div class="col-xs-12 col-sm-4 text-right">
+                            <input class="library-search-input" type="text" placeholder="Search our content here!"/>
+                            <i class="fa fa-search library-search-icon"></i>
+                        </div> <!-- End Search bar -->
+                    </div>
+
+                </div>
+            </div>
+        </div> <!-- End Header Template for Quick Training -->
+
+        <!-- Library -->
+        <div class="row">
+
+            <!-- Main Listing -->
+            <div class="col-sm-8 col-xs-12 library-container-row">
+            </div>
+
+            <!-- related listings -->
+            <div class="col-sm-4 col-xs-12 library-related-content-container-row">
+                <!-- Promo Ad -->
+
+<link href="/lib/cache/3a5e9da7bc98bc48a1b993d9949c8c98.css?ver=1542950924" rel="stylesheet" media="screen" />
+<div class="row" id="promo-ad">
+    <div class="col-xs-12 col-sm-4 col-sm-offset-4 col-md-12 col-md-offset-0">
+        <a href="//linuxacademy.com/blog/linuxacademy-com/linux-academy-fall-enterprise-update/?utm_source=internal&utm_medium=ad&utm_campaign=2018B2BFallUpdates" target="_blank">
+            <img src="//d3tvkhs7n88b6u.cloudfront.net/common/B2B-Platform-Updates-ad.png" class="img-responsive">
+        </a>
+    </div>
+</div>
+
+
+                <!-- guides -->
+                <div class="related-content-guide-holder">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" data-toggle="collapse" data-target="#guides">
+                            <i class="fa fa-file-text-o"></i><h3 class="panel-title">Guides</h3>
+                        </div>
+                        <div id="guides" class="collapse in related-guides">
+                            <ul>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- End of library -->
+
+        <!-- Back to top btn -->
+        <div class="row back-to-top-container">
+            <div class="col-xs-12 library-back-to-top-img-holder">
+                <a href="#top">
+                    <img width="254px" src="/templates/cp/assets/img/back-to-top.png" alt="back to top image"/>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var json = {};
+    var searcher = {};
+
+    $(document).ready(function() {
+
+        //tooltips
+        $('[data-toggle="tooltip"]').tooltip();
+
+        //select btn multiselect option
+        $('.select-topic').multiselect({
+            buttonClass: 'btn btn-la-filter-library',
+            buttonText: function(options, select) {
+                if (options.length === 0) {
+                    return 'Topic';
+                }
+                else if (options.length === 2) {
+                    return 'Topic (2)';
+                }
+                else if (options.length > 2) {
+                    return 'Topic (2+)';
+                }
+                else {
+                    var labels = [];
+                    options.each(function() {
+                        if ($(this).attr('label') !== undefined) {
+                            labels.push($(this).attr('label'));
+                        }
+                        else {
+                            labels.push($(this).html());
+                        }
+                    });
+                    return labels.join(', ') + '';
+                }
+            },
+            includeSelectAllOption: true
+        });
+
+        //select btn multiselect option
+        $('.select-type').multiselect({
+            buttonClass: 'btn btn-la-filter-library',
+            buttonText: function(options, select) {
+                if (options.length === 0) {
+                    return 'Type';
+                }else if (options.length === 2) {
+                    return 'Type (2)';
+                }
+                else if (options.length >= 2) {
+                    return 'Type (2+)';
+                }
+                else {
+                    var labels = [];
+                    options.each(function() {
+                        if ($(this).attr('label') !== undefined) {
+                            labels.push($(this).attr('label'));
+                        }
+                        else {
+                            labels.push($(this).html());
+                        }
+                    });
+                    return labels.join(', ') + '';
+                }
+            },
+            includeSelectAllOption: true
+        });
+
+        //select btn multiselect option for time
+        $('.select-time').multiselect({
+            buttonClass: 'btn btn-la-filter-library',
+            buttonText: function(options, select) {
+                if (options.length === 0) {
+                    return 'Max Length';
+                }
+                else {
+                    var labels = [];
+                    options.each(function() {
+                        if ($(this).attr('label') !== undefined) {
+                            labels.push($(this).attr('label'));
+                        }
+                        else {
+                            labels.push($(this).text());
+                        }
+                    });
+                    return labels.join(', ') + '';
+                }
+            },
+            includeSelectAllOption: false
+        });
+
+        //show/hide related content
+        $(function () {
+            var $menu = $('.library-related-content-container-row');
+            var $content = $('.library-container-row');
+
+            $('#toggle1').click(function () {
+                if ($menu.is(':visible') && $content.hasClass('col-sm-8')) {
+                    // Slide out
+                    $('.library-related-content-container-header').hide();
+                    $menu.hide(200);
+                    //$content.addClass('p-x-0');
+                    $content.removeClass('col-sm-8').addClass('col-sm-12');
+                }
+                else {
+                    // Slide in
+                    $menu.show(200);
+                    $('.library-related-content-container-header').show();
+                    //$content.removeClass('p-x-0');
+                    $content.removeClass('col-sm-12').addClass('col-sm-8');
+                }
+                if ($content.hasClass('col-sm-12') && $menu.is(':hidden')) {
+                        $menu.show(200);
+                        $('.library-related-content-container-header').show();
+                        //$menu.show();
+                        $content.removeClass('col-sm-12').addClass('col-sm-8');
+                }
+            });
+
+                    });
+
+        //ripple btn click effect
+        var parent, ink, d, x, y;
+        $(".btn-la-filter-library a").click(function(e){
+            parent = $(this).parent();
+            //create .ink element if it doesn't exist
+            if(parent.find(".ink").length == 0)
+            parent.prepend("<span class='ink'></span>");
+
+            ink = parent.find(".ink");
+
+            //incase of quick double clicks stop the previous animation
+            ink.removeClass("animate");
+
+            //set size of .ink
+            if(!ink.height() && !ink.width()) {
+                //use parent's width or height whichever is larger for the diameter to make a circle which can cover the entire element.
+                d = Math.max(parent.outerWidth(), parent.outerHeight());
+                ink.css({height: d, width: d});
+            }
+
+            //get click coordinates
+            //logic = click coordinates relative to page - parent's position relative to page - half of self height/width to make it controllable from the center;
+            x = e.pageX - parent.offset().left - ink.width()/2;
+            y = e.pageY - parent.offset().top - ink.height()/2;
+
+            //set the position and add class .animate
+            ink.css({top: y+'px', left: x+'px'}).addClass("animate");
+        });
+
+        //built in results for the page
+        //json = ;
+        //json.hit = json.hit.slice(0,1);
+        searcher = new SearchEngine('library', '.library-container-row');
+
+                                    searcher.register_exclusions('community');
+
+
+
+            searcher.type_params = "(or type: 'livelab')";
+
+
+
+
+        related_guides = new SearchEngine('dependent', '.related-guides ul');
+        related_nuggets = new SearchEngine('dependent', '.related-nuggets ul' );
+        related_assessments = new SearchEngine('dependent', '.related-assessments ul');
+        searcher.register_dependent_engine( related_guides, 'related_guides');
+        searcher.register_dependent_engine( related_assessments, 'related_assessments');
+        searcher.register_dependent_engine( related_nuggets, 'related_nuggets');
+
+        //smooth scroll to the top
+        $(function() {
+            $('a[href="#top"]').click(function() {
+                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 700);
+                        return false;
+                    }
+                }
+            });
+        });
+    });
+</script>
+
+
+    <div class="modal modal fade" id="referralModal" aria-hidden="false" role="dialog">
+ <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button class="close" data-dismiss="modal">×</button>
+        <h3>Refer a Friend!</h3>
+      </div>
+      <div class="modal-body">
+        <form id="referralForm" method="post" action="/cp/community">
+          <div class="form-group">
+            <label>Refer a Friend, and you will both receive a free Cloud Credential Certificate Voucher, when they sign up!</label>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" rows="3" placeholder="Enter email addresses separated by comma" name="emails" id="emails" required ></textarea>
+          </div>
+          <div class="form-group">
+            <button class="btn btn-la" id="teamsupportSubmit">Submit</button>
+          </div>
+        </form>
+        <div id="referralSuccess" style="display:none">
+          Thanks for spreading the word!
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-la" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+$("#referralForm").submit(function( event ) {
+  var strEmails = $("#emails").val();
+  $.post( "/cp/api/referral", { emails: strEmails }, function( data ) {
+    if(data == '1'){
+      $("#referralSuccess").show();
+      $("#referralForm").hide();
+    }
+  });
+  return false;
+});
+</script>
+<script src="/lib/cache/a78266d49a2bf4774430493de18de174_fbdbce214fecf4bddd3a47e1da75d14f_7b81d4db785ccb9b57c3194091289a74_08e78c06afd7ea977061e81d9d654867_a044903ac3d8345d1923e05e73e45e9c_.js?ver=1539266823"></script><script src="/lib/cache/60fc43f4f29b61477b7d46966181810c.js?ver=1539266823"></script><script>
+
+$('document').ready(function(){
+
+// This script keeps the user logged into the authentication providers for duration of their time on site
+// as long as they don't spend more than 2 hours on a single page
+// this has nothing to do with the actual session login to serenity.
+    if(!isAuthenticated()) {
+
+        checkSession(webAuth, ssoConfig, function(err, authResult) {
+            if(err){
+                console.log(err + 'User not authenticated');
+
+            } else {
+                // add token data to locaStorage
+                setSession(authResult);
+                // do whatever you need .. maybe hide login buttons and replace if that hasn't happened already
+            }
+        });
+    } else {
+        //console.log('User Logged In');
+    }
+
+});
+
+
+</script>
+
+<script>
+    if (typeof(module_id) != 'undefined' && $('[name=module_id]').length > 0) {
+        $('[name=module_id]')[0].value = module_id;
+    }
+
+            window.intercomSettings = {
+            app_id: "c3zuyhmd",
+            created_at: '1493576580',
+            signed_up_at: '1493576580',
+            user_id: '100488',
+            email: 'dinesh.pallapa0@gmail.com',
+            name: 'Dinesh Pallapa',
+            last_request_at: '1546128264',
+            custom_attributes: {
+                active: '0',
+                lastLogin_at: '1546128264',
+                registrationDate_at: '1493576587',
+                accountCreationDate_at: '1493576580',
+                organizationId: '0',
+                tid: '0',
+                communityPost: '0',
+                completedLab: '1',
+                learningPlan: '1',
+                learningPath: '0',
+                purchasedVoucher: '0',
+                orgAdmin: '0',
+                orgLearningPath: '0',
+                orgSeats: '0',
+                orgSeatsRemaining: '0',
+                orgSeatsUsed: '0',
+                usedVoucher: '0',
+                attemptedAssessment: '0',
+                attemptedPaidAssessment: '0',
+                attemptedFreeAssessment: '0',
+                passedAssessment: '0'
+            }
+        };
+
+    $(document).ready(function () {
+
+        //bootstrap tooltips
+        $('[data-toggle="tooltip"]').tooltip();
+
+        if (typeof(jwplayer) == 'function') {
+            if (jwplayer().on !== undefined) {
+                jwplayer().on('fullscreen', function (event) {
+                    if (jwplayer().getFullscreen()) {
+                        // hide
+                        $('#intercom-container')[0].style['z-index'] = 0;
+                    } else {
+                        // show
+                        $('#intercom-container')[0].style['z-index'] = 2147483647;
+                    }
+                });
+            } else if (jwplayer().onFullscreen !== undefined) {
+                jwplayer().onFullscreen(function (event) {
+                    if (jwplayer().getFullscreen()) {
+                        // hide
+                        $('#intercom-container')[0].style['z-index'] = 0;
+                    } else {
+                        // show
+                        $('#intercom-container')[0].style['z-index'] = 2147483647;
+                    }
+                });
+            }
+        }
+
+            });
+
+    (function () {
+        var w = window;
+        var ic = w.Intercom;
+        if (typeof ic === "function") {
+            ic('reattach_activator');
+            ic('update', intercomSettings);
+        } else {
+            var d = document;
+            var i = function () {
+                i.c(arguments)
+            };
+            i.q = [];
+            i.c = function (args) {
+                i.q.push(args)
+            };
+            w.Intercom = i;
+            function l() {
+                var s = d.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = 'https://widget.intercom.io/widget/c3zuyhmd';
+                var x = d.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            }
+
+            if (w.attachEvent) {
+                w.attachEvent('onload', l);
+            } else {
+                w.addEventListener('load', l, false);
+            }
+        }
+    })()
+</script>
+
+<!-- Google Analytics -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-88499456-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+<!-- Google AdSense -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-1107189565632108",
+        enable_page_level_ads: true
+    });
+</script>
+<!-- End Google AdSense -->
+    </body>
+</html>

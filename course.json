@@ -1,0 +1,320 @@
+{
+  "navigation": {
+    "categories": [
+      {
+        "name": "Cloud",
+        "icon": "https://d3bm05a1cocdno.cloudfront.net/assets/img/cloud-icon.svg",
+        "path": "https://linuxacademy.com/cp/library/catalog/view/CloudCourses",
+        "certsAvailable": false
+      },
+      {
+        "name": "AWS",
+        "icon": "https://d3bm05a1cocdno.cloudfront.net/assets/img/aws-icon.svg",
+        "path": "https://linuxacademy.com/cp/library/catalog/view/AWSCourses",
+        "certsAvailable": true
+      },
+      {
+        "name": "Azure",
+        "icon": "https://d3bm05a1cocdno.cloudfront.net/assets/img/azure-icon.svg",
+        "path": "https://linuxacademy.com/cp/library/catalog/view/AzureCourses",
+        "certsAvailable": true
+      },
+      {
+        "name": "Google Cloud",
+        "icon": "https://d3bm05a1cocdno.cloudfront.net/assets/img/google-cloud-icon.svg",
+        "path": "https://linuxacademy.com/cp/library/catalog/view/GoogleCloudPlatformCourses",
+        "certsAvailable": true
+      },
+      {
+        "name": "Linux",
+        "icon": "https://d3bm05a1cocdno.cloudfront.net/assets/img/linux-icon.svg",
+        "path": "https://linuxacademy.com/cp/library/catalog/view/LinuxCourses",
+        "certsAvailable": true
+      },
+      {
+        "name": "Security",
+        "icon": "https://d3bm05a1cocdno.cloudfront.net/assets/img/security-icon.svg",
+        "path": "https://linuxacademy.com/cp/library/catalog/view/SecurityCourses",
+        "certsAvailable": false
+      },
+      {
+        "name": "DevOps",
+        "icon": "https://d3bm05a1cocdno.cloudfront.net/assets/img/devops-icon.svg",
+        "path": "https://linuxacademy.com/cp/library/catalog/view/DevOpsCourses",
+        "certsAvailable": true
+      },
+      {
+        "name": "Containers",
+        "icon": "https://d3bm05a1cocdno.cloudfront.net/assets/img/containers-icon.svg",
+        "path": "https://linuxacademy.com/cp/library/catalog/view/ContainersCourses",
+        "certsAvailable": true
+      },
+      {
+        "name": "OpenStack",
+        "icon": "https://d3bm05a1cocdno.cloudfront.net/assets/img/openstack-icon.svg",
+        "path": "https://linuxacademy.com/cp/library/catalog/view/OpenStackCourses",
+        "certsAvailable": true
+      },
+      {
+        "name": "Big Data",
+        "icon": "https://d3bm05a1cocdno.cloudfront.net/assets/img/big-data.svg",
+        "path": "https://linuxacademy.com/cp/library/catalog/view/BigDataCourses",
+        "certsAvailable": false
+      }
+    ],
+    "certifications": {
+      "AWS": [
+        {
+          "name": "AWS Certified Cloud Practitioner",
+          "path": "https://linuxacademy.com/cp/modules/view/id/154"
+        },
+        {
+          "name": "Certified Solutions Architect - Associate",
+          "path": "https://linuxacademy.com/cp/modules/view/id/228"
+        },
+        {
+          "name": "Certified Developer - Associate",
+          "path": "https://linuxacademy.com/cp/modules/view/id/181"
+        },
+        {
+          "name": "Certified SysOps Administrator - Associate",
+          "path": "https://linuxacademy.com/cp/modules/view/id/163"
+        },
+        {
+          "name": "Certified DevOps Engineer - Professional",
+          "path": "https://linuxacademy.com/cp/modules/view/id/206"
+        },
+        {
+          "name": "Certified Solutions Architect - Professional",
+          "path": "https://linuxacademy.com/cp/modules/view/id/45"
+        },
+        {
+          "name": "Certified Big Data Specialty",
+          "path": "https://linuxacademy.com/cp/modules/view/id/253"
+        },
+        {
+          "name": "Certified Advanced Networking Specialty",
+          "path": "https://linuxacademy.com/cp/modules/view/id/162"
+        },
+        {
+          "name": "AWS Certified Security - Specialty",
+          "path": "https://linuxacademy.com/cp/modules/view/id/203"
+        }
+      ],
+      "Azure": [
+        {
+          "name": "Architecting Microsoft Azure Solutions Exam 70-532",
+          "path": "https://linuxacademy.com/cp/modules/view/id/196"
+        },
+        {
+          "name": "Implementing Microsoft Azure Infrastructure Exam 70-533",
+          "path": "https://linuxacademy.com/cp/modules/view/id/230"
+        }
+      ],
+      "Google Cloud": [
+        {
+          "name": "Google Certified Professional - Cloud Architect - Part 1",
+          "path": "https://linuxacademy.com/cp/modules/view/id/139"
+        },
+        {
+          "name": "Google Certified Professional - Cloud Architect - Part 2",
+          "path": "https://linuxacademy.com/cp/modules/view/id/143"
+        },
+        {
+          "name": "Google Certified Professional - Cloud Architect - Part 3",
+          "path": "https://linuxacademy.com/cp/modules/view/id/166"
+        },
+        {
+          "name": "Google Cloud Certified Professional Data Engineer",
+          "path": "https://linuxacademy.com/cp/modules/view/id/208"
+        },
+        {
+          "name": "Google Cloud Certified Associate Cloud Engineer",
+          "path": "https://linuxacademy.com/cp/modules/view/id/238"
+        }
+      ],
+      "Linux": [
+        {
+          "name": "Red Hat Certified Architect: RHCA",
+          "path": "https://linuxacademy.com/cp/learningpaths/preview/id/2444",
+          "provider": "Red Hat"
+        },
+        {
+          "name": "Red Hat Certified Systems Administrator - RHCSA (EX200) Prep Course",
+          "path": "https://linuxacademy.com/cp/modules/view/id/39",
+          "provider": "Red Hat"
+        },
+        {
+          "name": "Red Hat Certified Engineer - RHCE (EX300) Prep Course",
+          "path": "https://linuxacademy.com/cp/modules/view/id/50",
+          "provider": "Red Hat"
+        },
+        {
+          "name": "Red Hat Certified Engineer in Red Hat OpenStack (EX310K) Prep Course",
+          "path": "https://linuxacademy.com/cp/modules/view/id/131",
+          "provider": "Red Hat"
+        },
+        {
+          "name": "Red Hat Certified Specialist in Ansible Automation  (EX407) Prep Course",
+          "path": "https://linuxacademy.com/cp/modules/view/id/198",
+          "provider": "Red Hat"
+        },
+        {
+          "name": "Red Hat Certified Specialist in Containerized Application Development (EX276) Prep Course",
+          "path": "https://linuxacademy.com/cp/modules/view/id/110",
+          "provider": "Red Hat"
+        },
+        {
+          "name": "Red Hat Certified Specialist in Server Hardening (EX413) Prep Course",
+          "path": "https://linuxacademy.com/cp/modules/view/id/134",
+          "provider": "Red Hat"
+        },
+        {
+          "name": "Red Hat Certified Specialist in Virtualization Preparation Course",
+          "path": "https://linuxacademy.com/cp/modules/view/id/211",
+          "provider": "Red Hat"
+        },
+        {
+          "name": "(OpenShift) Red Hat Certified Specialist in Platform-as-a-Service exam (EX280) Prep Course",
+          "path": "https://linuxacademy.com/cp/modules/view/id/149",
+          "provider": "Red Hat"
+        },
+        {
+          "name": "Linux Essentials - Exam 010 - Newly Refreshed!",
+          "path": "https://linuxacademy.com/cp/modules/view/id/161",
+          "provider": "Linux Professional Institute (LPI)"
+        },
+        {
+          "name": "Linux+ and LPIC-1: System Administrator - Exam 101",
+          "path": "https://linuxacademy.com/cp/modules/view/id/214",
+          "provider": "Linux Professional Institute (LPI)"
+        },
+        {
+          "name": "Linux+ and LPIC-1: System Administrator - Exam 102",
+          "path": "https://linuxacademy.com/cp/modules/view/id/126",
+          "provider": "Linux Professional Institute (LPI)"
+        },
+        {
+          "name": "LPIC-2: Linux Engineer Exam 201",
+          "path": "https://linuxacademy.com/cp/modules/view/id/99",
+          "provider": "Linux Professional Institute (LPI)"
+        },
+        {
+          "name": "LPIC-2: Linux Engineer Exam 202",
+          "path": "https://linuxacademy.com/cp/modules/view/id/111",
+          "provider": "Linux Professional Institute (LPI)"
+        },
+        {
+          "name": "LPI DevOps Tools Engineer Certification",
+          "path": "https://linuxacademy.com/cp/modules/view/id/217",
+          "provider": "Linux Professional Institute (LPI)"
+        },
+        {
+          "name": "Certified System Administrator",
+          "path": "https://linuxacademy.com/cp/modules/view/id/173",
+          "provider": "Linux Foundation"
+        },
+        {
+          "name": "Certified Systems Engineer",
+          "path": "https://linuxacademy.com/cp/modules/view/id/58",
+          "provider": "Linux Foundation"
+        },
+        {
+          "name": "LPIC-1 Exam 101",
+          "path": "https://linuxacademy.com/cp/modules/view/id/125",
+          "provider": "CompTIA"
+        },
+        {
+          "name": "LPIC-1 Exam 102",
+          "path": "https://linuxacademy.com/cp/modules/view/id/126",
+          "provider": "CompTIA"
+        },
+        {
+          "name": "CompTIA Cloud Essentials Certification",
+          "path": "https://linuxacademy.com/cp/modules/view/id/236",
+          "provider": "CompTIA"
+        }
+      ],
+      "Security": [
+        {
+          "name": "Certified Ethical Hacker Certification",
+          "path": "https://linuxacademy.com/cp/modules/view/id/239"
+        },
+        {
+          "name": "Red Hat Certified Specialist in Server Hardening (EX413) Prep Course",
+          "path": "https://linuxacademy.com/cp/modules/view/id/134"
+        },
+        {
+          "name": "AWS Certified Security - Specialty",
+          "path": "https://linuxacademy.com/cp/modules/view/id/203"
+        },
+        {
+          "name": "CompTIA Security+",
+          "path": "https://linuxacademy.com/cp/modules/view/id/264"
+        },
+        {
+          "name": "CompTIA PenTest+",
+          "path": "https://linuxacademy.com/cp/modules/view/id/269"
+        }
+      ],
+      "DevOps": [
+        {
+          "name": "Certified Chef Developer Basic Chef Fluency Badge",
+          "path": "https://linuxacademy.com/cp/modules/view/id/224"
+        },
+        {
+          "name": "Chef Local Cookbook Development Badge",
+          "path": "https://linuxacademy.com/cp/modules/view/id/122"
+        },
+        {
+          "name": "Docker Certified Associate Prep Course",
+          "path": "https://linuxacademy.com/cp/modules/view/id/150"
+        },
+        {
+          "name": "PPT-204: Puppet 204 - System Administration Using Puppet",
+          "path": "https://linuxacademy.com/cp/modules/view/id/117"
+        },
+        {
+          "name": "Cloud Foundry Certified Developer",
+          "path": "https://linuxacademy.com/cp/modules/view/id/178"
+        },
+        {
+          "name": "SaltStack Certified Engineer",
+          "path": "https://linuxacademy.com/cp/modules/view/id/216"
+        },
+        {
+          "name": "LPI DevOps Tools Engineer Certification",
+          "path": "https://linuxacademy.com/cp/modules/view/id/217"
+        },
+        {
+          "name": "Elastic Certified Engineer",
+          "path": "https://linuxacademy.com/cp/modules/view/id/257"
+        }
+      ],
+      "Containers": [
+        {
+          "name": "Cloud Native (CKA) Certified Kubernetes Administrator",
+          "path": "https://linuxacademy.com/cp/modules/view/id/155"
+        },
+        {
+          "name": "Docker Certified Associate Prep Course",
+          "path": "https://linuxacademy.com/cp/modules/view/id/150"
+        }
+      ],
+      "OpenStack": [
+        {
+          "name": "Linux Academy Red Hat Certified Engineer in Red Hat OpenStack Prep Course (EX310K)",
+          "path": "https://linuxacademy.com/cp/modules/view/id/131"
+        },
+        {
+          "name": "Linux Academy’s OpenStack Certified Mirantis 100 Prep (OCM100)",
+          "path": "https://linuxacademy.com/cp/modules/view/id/151"
+        },
+        {
+          "name": "OpenStack Foundation Certified OpenStack Administrator",
+          "path": "https://linuxacademy.com/cp/modules/view/id/194"
+        }
+      ]
+    }
+  }
+}
